@@ -40,3 +40,51 @@ A. If you have pointer failures with bwh_setup.exe then pm me and we'll discuss 
 Q. I have some other question...
 
 A. Go to http://rpg-exploiters.shoq.net/, find the bwh thread, and post a reply. Can also pm me if you want, np.
+
+
+https://www.ownedcore.com/forums/world-of-warcraft/world-of-warcraft-bots-programs/15210-source-bwh-bubbas-hack-source-code.html
+[Source] BWH Bubba's Hack Source Code
+For compiling this beast you need Visual Studio .NET 2003 and the DirectX SDK December 2004 edition. You can probably compile in some other environment, but I can only guarantee that it will compile normally under that environment.
+
+Use of the original program:
+
+Track Pattern: If you enter some text in this textbox then any npc or pc name that contains that string will be shown on your minimap. So, if you type in "a", then any character with an "a" in their name will show up. This works regardless of what tracks you have enabled or disabled. This is added for when you need to find a certain character for a quest or something.
+
+Speed Hacking: Speed hacking is controled with the S textbox and buttons and with the speed up/down hotkeys. You actually have 5 different speeds associated with your character...
+Run speed: default is 7 and it changes when you have some run speed buff or debuff applied to your character.
+Walk speed: default is 2.5 and it never changes.
+Backward speed: default is 4.5 and it never changes.
+Swim speed: default is 4.722222 and it changes when you have some swim speed buff or debuff applied to your character.
+Backward swim speed: default is 4.5 and it never changes.
+The speed displayed by the hack is your run speed. When you change your run speed, the hack also changes all of your other speeds. So, if you double your run speed then the hack will also double your walk speed. If the game changes your run or swim speed then hack will reset all other speeds to their default values. This is because if your run speed is "supposed" to be different that 7, then having adjusted values for the other speeds will make your character appear like hes running weird.
+Note that the normal speed hotkey resets your run speed to 7 and all other speeds to their default values. If your on a mount, have aspect of the cheeta, or something like that normal speed will not set your speed to default mount/aspect/whatever speed. It will set it to 7 always.
+
+
+Disable Hotkeys: Pretty simple. Checking this will disable all hotkeys except for the ShowHide hotkey. Hotkeys that are trapped by bwh are not sent along to WoW. So, use this if you have some conflicting hotkeys with WoW and don't feel like rerunning setup to fix it.
+
+No Fall Damage: Check this and you will no longer take fall damage.
+
+Mountain Climb: Check this and you will be able to climb really steep slopes.
+
+Lock Speed: Check this and you WoW will be unable to change your speed in response to a speed buff or debuff. This includes stuff like getting on your mount, stealthing, etc...
+
+Zero Gravity: Check this and you will no longer "fall". Note that you also cannot jump; this is on purpose because jumping while using this hack makes you go crazy for some reason.
+
+Teleport to Plane: I still don't know really what this is. Some people requested it so there it is. Supposedly you can run around unseen with this on, but I am not sure if that's really what's happening. I don't use it so... whatever.
+
+Follow NPC: This will allow you to follow npc's and enemy faction pc's around. It also takes out the distance requirement. As long as you can target what you want to follow, then you can follow it. To activate it, select the character you want to follow and type "/follow"
+
+
+Please note that this hack was originally made for the version v1.7 client of wow.
+Now with the source code developers can really start working on it again 
+
+Enjoy :wave:
+-=Tehavatar=-
+
+Source.zip
+
+
+
+
+-----)(Please leave the copyright text intact)(-----
+This post is copyright by the user posting it and MMOwned.com - World of Warcraft Exploits,Hacks, Bots and Guides, where it was posted. You may not copy or reproduce this information on any other site without written permission from both the poster and MMOwned.com
